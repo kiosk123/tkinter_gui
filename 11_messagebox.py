@@ -25,7 +25,7 @@ def yesno():
 
 def yesnocancel():
     response = msgbox.askyesnocancel(title=None, message="예매 내역이 저장되지 않았습니다.\n 저장 후 프로그램을 종료하시겠습니까?")
-    print(response)
+    print(response) # 어느 버튼이 눌렀는지 확인 # True 예, False 아니오, None 취소
     
 Button(root, command=info, text="알림").pack()
 Button(root, command=warn, text="경고").pack()
